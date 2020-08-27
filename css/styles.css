@@ -1,10 +1,14 @@
-a{
-    text-decoration: none;
-}
 
 body{
     background-color: azure;
     margin: 0%;
+}
+
+
+/* untuk element*/
+
+a{
+    text-decoration: none;
 }
 
 h2{
@@ -13,12 +17,15 @@ h2{
 p{
     line-height: 1.5;
 }
+thead{
+    background-color: cyan;
+}
 
 /* untuk class*/
 
 .atas{
     text-align: left;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 
 .btn{
@@ -31,12 +38,29 @@ p{
 
 .course-img{
     float: left;
-    width: 150px;
+    width: 450px;
     height: 150px;
+    margin-right: 20px;
+}
+
+.footer{
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .section{
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+.social-links{
+    width: 30px;
+    height: 30px;
+    margin-right: 300px;
+}
+
+.working{
+    margin: 0 auto;
 }
 
 .wrapper{
@@ -54,10 +78,21 @@ p{
     top: 20px;
 }
 
+#emerio{
+    width: 300px;
+    height: 150 px;
+    margin-left: 60px;
+}
+
 #fotoku{
     border-radius: 100%;
     float: right;
     margin-left: 20px;
+}
+
+#kemet{
+    width: 405px;
+    height: 150px;
 }
 #nama{
     font-size: 4.5rem;
@@ -65,4 +100,20 @@ p{
     width: 600px;
     margin: 0 auto;
     display: block;
+}
+#skydu{
+    width: 150px;
+    height: 150px;
+    margin-left: 120px;
+}
+
+#td-centre{
+    text-align: center;
+    width: 500px;
+}
+
+#ums{
+    width: 150px;
+    height: 150px;
+    margin-left: 140px;
 }
